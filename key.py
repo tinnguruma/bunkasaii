@@ -17,6 +17,9 @@ while (True):
         print(GREEN + "\__ \ |_| | (_| (_|  __/\__ \__ \ " + END)
         print(GREEN + "|___/\__,_|\___\___\___||___/___/" + END)
         print("")
+        
+        #ここに正解した時のサウンドのディレクトリを置く(mp3 OR wav)
+        
         playsound("key1.mp3")
     else:
         print("")
@@ -25,5 +28,8 @@ while (True):
         print(RED + "|  __/ |  | | | (_) | |   " + END)
         print(RED + " \___|_|  |_|  \___/|_|   " + END)
         print("")
+        
+        #ここに不正解した時のサウンドのディレクトリを置く(mp3 OR wav)
+        
         playsound("key2.mp3")
         
